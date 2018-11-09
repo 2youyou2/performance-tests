@@ -41,9 +41,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.23301019107868082,
-      "y": 0.23301019107868082,
-      "z": 0.23301019107868082
+      "x": 0.288671875,
+      "y": 0.288671875,
+      "z": 0.288671875
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -56,7 +56,7 @@
     "_is3DNode": true,
     "groupIndex": 0,
     "autoReleaseAssets": false,
-    "_id": "24ff3de1-1cc2-482f-ae38-d7753e5bc0dd"
+    "_id": "e1a11772-8af6-4fa8-9be3-00e4b27cf180"
   },
   {
     "__type__": "cc.Node",
@@ -394,7 +394,7 @@
     },
     "_enabled": true,
     "prefab": {
-      "__uuid__": "9eaedc29-34a3-46b7-9508-e3e0f7e7ef34"
+      "__uuid__": "ef8e2efb-035a-4b0e-8199-64a37b494427"
     },
     "number": {
       "__id__": 6

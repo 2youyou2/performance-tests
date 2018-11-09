@@ -16,7 +16,30 @@ config.TEST_CASE = [
     { 
         name: "3D Model Test", 
         scene: "3DModelTest", 
-        auto: false, 
+        args: { 
+            windows_chrome: { count: 100 },
+            osx_chrome: { count: 100 },
+            ios_safari: { count: 50 },
+            ios_chrome: { count: 50 },
+            android_chrome: { count: 50 },
+            android_qq: {count: 50},
+            default: { count: 50}
+        },
+        auto: true, 
+    },
+    { 
+        name: "3D Mesh Test", 
+        scene: "3DMeshTest", 
+        args: { 
+            windows_chrome: { count: 2000 },
+            osx_chrome: { count: 2000 },
+            ios_safari: { count: 500 },
+            ios_chrome: { count: 500 },
+            android_chrome: { count: 500 },
+            android_qq: {count: 500},
+            default: { count: 500}
+        },
+        auto: true, 
     },
     {
         name: "Bunny Fixed Count Test",
